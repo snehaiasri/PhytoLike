@@ -371,16 +371,7 @@ with home_tab:
         )
         st.markdown("<div style='height: 1.1rem;'></div>", unsafe_allow_html=True)
         bottom_left, bottom_right = st.columns(2, gap="large")
-        with bottom_left:
-            card(
-                "Expected input",
-                "Enter a valid SMILES string for single-compound prediction, or upload a CSV file for batch analysis. Optional identifiers such as compound name or compound ID may also be included."
-            )
-        with bottom_right:
-            card(
-                "Output",
-                "The platform returns a phytochemical-likeness score, an interpretation category, and a similarity-based confidence estimate, along with nearest training neighbors."
-            )
+        
         st.markdown("<div style='height: 2.6rem;'></div>", unsafe_allow_html=True)
     with top_right:
         if Path(HOME_ILLUSTRATION).exists():
