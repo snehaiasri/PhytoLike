@@ -3,4 +3,4 @@ pandas
 numpy
 joblib
 scikit-learn
-rdkit-pypi
+rdkit
