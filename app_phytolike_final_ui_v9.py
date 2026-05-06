@@ -382,7 +382,7 @@ with home_tab:
 with prediction_tab:
     st.markdown("### Prediction")
     st.caption("Predict phytochemical-likeness for a single compound or perform batch analysis.")
-    single_pred_tab, batch_pred_tab = st.tabs(["Single compound", "Upload compounds"])
+    single_pred_tab, batch_pred_tab = st.tabs(["Single compound", "Upload multiple compounds"])
 
     with single_pred_tab:
         left, right = st.columns([1.2, 0.8], gap="large")
