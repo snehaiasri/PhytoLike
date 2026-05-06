@@ -380,9 +380,9 @@ with home_tab:
             card("Platform illustration", "A visual overview of the phytochemical-likeness workflow.")
 
 with prediction_tab:
-    st.markdown("### Prediction workspace")
+    st.markdown("### Prediction")
     st.caption("Predict phytochemical-likeness for a single compound or perform batch analysis.")
-    single_pred_tab, batch_pred_tab = st.tabs(["Single compound", "Batch CSV"])
+    single_pred_tab, batch_pred_tab = st.tabs(["Single compound", "Upload compounds"])
 
     with single_pred_tab:
         left, right = st.columns([1.2, 0.8], gap="large")
