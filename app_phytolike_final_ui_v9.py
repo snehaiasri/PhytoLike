@@ -359,7 +359,7 @@ st.markdown(
 )
 
 home_tab, prediction_tab, tutorial_tab, contact_tab = st.tabs([
-    "🏠 Home", "🧪 Prediction", "📘 Tutorial", "📩 Contact"
+    "Home", "Prediction", "Tutorial", "📩 Contact"
 ])
 
 with home_tab:
